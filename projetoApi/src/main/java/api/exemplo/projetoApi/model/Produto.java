@@ -1,9 +1,19 @@
 package api.exemplo.projetoApi.model;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 
+@Entity
 public class Produto {
+    @Column
     private String id;
+
+    @Column
     private String nome;
+
+    @Column
     private String descricao;
+
+    @Column
     private double preco;
 
     public String getNome() {

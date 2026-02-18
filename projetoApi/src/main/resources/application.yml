@@ -3,10 +3,10 @@ spring:
     name: Produtos API
   datasource:
     url: jdbc:h2:mem:produtos
-    ussername: sa
+    username: sa
     password: password
   jpa:
-    database-platform:org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.H2Dialect
   h2:
     console:
       enabled: true
